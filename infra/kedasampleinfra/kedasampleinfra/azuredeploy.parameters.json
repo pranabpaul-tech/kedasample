@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.5",
+  "parameters": {
+    "subscription_id": {
+      "value": "eff758a9-6728-4207-a75c-973bea388c34"
+    },
+    "vault_name": {
+      "value": "keyvaultwithkeda"
+    },
+    "virtualNetwork_name": {
+      "value": "akskedavnet"
+    },
+    "subnet_name": {
+      "value": "akskedasubnet"
+    },
+    "addressPrefixes_vnet": {
+      "value": "10.0.0.0/16"
+    },
+    "addressPrefixes_subnet": {
+      "value": "10.0.0.0/24"
+    },
+    "registries_name": {
+      "value": "acrwithkeda"
+    },
+    "registries_sku": {
+      "value": "Standard"
+    },
+    "managedCluster_name": {
+      "value": "akskeda"
+    },
+    "storageAccounts_akshelperstorage_name": {
+      "value": "akskedastorage"
+    },
+    "keysecret_Value": {
+      "value": "password123"
+    }
+  }
+}

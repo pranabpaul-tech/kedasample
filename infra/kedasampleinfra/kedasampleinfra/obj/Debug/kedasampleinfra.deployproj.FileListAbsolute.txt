@@ -1,0 +1,2 @@
+C:\Users\pranabp\source\repos\infra\kedasampleinfra\kedasampleinfra\obj\Debug\kedasampleinfra.deployproj.CoreCompileInputs.cache
+C:\Users\pranabp\source\repos\kedasample\infra\kedasampleinfra\kedasampleinfra\obj\Debug\kedasampleinfra.deployproj.CoreCompileInputs.cache
