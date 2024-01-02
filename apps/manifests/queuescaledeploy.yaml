@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: queuescaledeploy
+  name: queuescaledeploy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: queuescaledeploy
+  template:
+    metadata:
+      labels:
+        app: queuescaledeploy
+    spec:
+      containers:
+        - image: nginx:latest
+          imagePullPolicy: Always
+          name: queuescaledeploy
+          env:
+          - name: STORAGE_CONNECTION
+            valueFrom:
+              secretKeyRef:
+                name: storage-secret
+                key: connection-string
+          resources:
+           requests:
+             memory: "64Mi"
+             cpu: "250m"
+           limits:
+             memory: "128Mi"
+             cpu: "500m"

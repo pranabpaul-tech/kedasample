@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\infra",
+    "\\infra\\kedasampleinfra"
   ],
-  "SelectedNode": "\\infra",
+  "SelectedNode": "\\infra\\kedasampleinfra\\kedasampleinfra.sln",
   "PreviewInSolutionExplorer": false
 }
